@@ -1,3 +1,0 @@
-[submodule "path_to_submodule"]
-	path = https://github.com/zengrunzi/zengrunzi.github.io/blob/main/.gitmodules
-	url = https://github.com/hugo-fixit/docs.git
