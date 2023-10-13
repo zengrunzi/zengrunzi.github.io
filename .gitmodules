@@ -1,3 +1,3 @@
-[submodule "https://github.com/zengrunzi/zengrunzi.github.io/blob/main/.gitmodules"]
-	path = path_to_submodule
+[submodule "themes/hugo-fixit"]
+	path = themes/hugo-fixit
 	url = https://github.com/hugo-fixit/docs.git
