@@ -2,8 +2,13 @@
 title: First_post
 subtitle:first_test_subtitle
 date: 2023-10-15T20:17:18+08:00
+<<<<<<< HEAD
 
 author:zengrunzi
+=======
+draft: false
+author:
+>>>>>>> b48564d221e3aa815e29bf59ca0e8eb0a7e42e95
   name:
   link:
   email:
