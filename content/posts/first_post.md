@@ -10,8 +10,8 @@ author:
   link:
   email:
   avatar:
-description:it is a test for posting post on the blog.
-keywords:test
+description: it is a test for posting post on the blog.
+keywords: test
 license:
 comment: false
 weight: 0
