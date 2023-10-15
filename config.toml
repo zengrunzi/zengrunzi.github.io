@@ -144,7 +144,7 @@
       # URL of the LOGO
       logo = "/zeng.png"
       # title name
-      name = "曾润梓的博客"
+      name = "曾润梓"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -171,13 +171,13 @@
     # For advanced use, see parameter `params.customFilePath.footer`
     custom = ""
     # FixIt 0.2.0 | NEW whether to show Hugo and theme info
-    hugo = true
+    hugo = false
     # FixIt 0.2.0 | NEW whether to show copyright info
-    copyright = true
+    copyright = false
     # FixIt 0.2.0 | NEW whether to show the author
-    author = true
+    author = false
     # Site creation year
-    since = ""
+    since = "2023-10-14"
     # FixIt 0.2.14 | NEW whether to show total word count of site content
     wordCount = true
     # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
@@ -198,7 +198,7 @@
       powered = 0
       copyright = 0
       statistics = 0
-      visitor = 0
+      visitor = 1
       beian = 0
 
   # FixIt 0.2.0 | NEW Section (all posts) page config
@@ -247,7 +247,7 @@
       # FixIt 0.2.17 | NEW identifier of avatar menu link
       avatarMenu = ""
       # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)
-      title = ""
+      title = "曾润梓 | R.Z"
       # subtitle shown in home page
       subtitle = ""
       # whether to use typeit animation for subtitle
@@ -264,7 +264,7 @@
 
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]
-    GitHub = ""
+    GitHub = "zengrunzi@github.com"
     Linkedin = ""
     Twitter = ""
     Instagram = ""
