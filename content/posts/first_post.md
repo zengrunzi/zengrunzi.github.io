@@ -1,15 +1,15 @@
 ---
 title: First_post
-subtitle:
+subtitle:first_test_subtitle
 date: 2023-10-15T20:17:18+08:00
-draft: true
-author:
+
+author:zengrunzi
   name:
   link:
   email:
   avatar:
-description:
-keywords:
+description:it is a test for posting post on the blog.
+keywords:test
 license:
 comment: false
 weight: 0
