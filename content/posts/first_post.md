@@ -1,9 +1,9 @@
 ---
 title: First_post
-subtitle:first_test_subtitle
+subtitle: first_test_subtitle
 date: 2023-10-15T20:17:18+08:00
 
-author:zengrunzi
+author: zengrunzi
 draft: false
 author:
   name:
