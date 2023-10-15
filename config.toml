@@ -15,7 +15,7 @@
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "zengrunzi's blog , welcome"
+    name = "所有文章"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
@@ -34,22 +34,23 @@
     identifier = "categories"
     pre = ""
     post = ""
-    name = "Categories"
+    name = "分类"
     url = "/categories/"
     title = ""
     weight = 2
     [menu.main.params]
       icon = "fa-solid fa-th"
   [[menu.main]]
-    identifier = "tags"
+    identifier = "about"
     pre = ""
     post = ""
-    name = "Tags"
-    url = "/tags/"
+    name = "关于"
+    url = "/about/"
     title = ""
     weight = 3
     [menu.main.params]
       icon = "fa-solid fa-tags"
+
 
 # -------------------------------------------------------------------------------------
 # Theme Core Configuration
