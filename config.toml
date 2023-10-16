@@ -27,7 +27,7 @@
       # whether set as a draft menu item whose function is similar to a draft post/page
       draft = false
       # FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item
-      icon = "fa-solid fa-archive"
+      icon = ""
       # FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
       type = ""
   [[menu.main]]
@@ -39,7 +39,7 @@
     title = ""
     weight = 2
     [menu.main.params]
-      icon = "fa-solid fa-th"
+      icon = ""
   [[menu.main]]
     identifier = "tags"  
     pre = ""
@@ -49,7 +49,7 @@
     title = ""
     weight = 3
     [menu.main.params]
-      icon = "fa-solid fa-tags"
+      icon = ""
   [[menu.main]]
     identifier = "about"
     pre = ""
@@ -59,7 +59,7 @@
     title = ""
     weight = 4
     [menu.main.params]
-      icon = "fa-solid fa-address-book"
+      icon = ""
 
 # -------------------------------------------------------------------------------------
 # Theme Core Configuration
@@ -197,17 +197,17 @@
     license = ""
     # FixIt 0.2.17 | CHANGED Site creation time
     [params.footer.siteTime]
-      enable = false
+      enable = true
       animate = true
-      icon = "fa-solid fa-heartbeat"
-      pre = ""
+      icon = ""
+      pre = "2023-10-15"
       value = "" # e.g. "2021-12-18T16:15:22+08:00"
     # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
       powered = 0
       copyright = 0
       statistics = 0
-      visitor = 1
+      visitor = "first"
       beian = 0
 
   # FixIt 0.2.0 | NEW Section (all posts) page config
@@ -309,7 +309,7 @@
     pageStyle = "normal"
     # FixIt 0.2.17 | CHANGED Auto Bookmark Support
     # If true, save the reading progress when closing the page.
-    autoBookmark = false
+    autoBookmark = true
     # FixIt 0.2.17 | NEW whether to enable wordCount
     wordCount = true
     # FixIt 0.2.17 | NEW whether to enable readingTime
@@ -404,27 +404,6 @@
     [params.page.share]
       enable = true
       Twitter = true
-      Facebook = true
-      Linkedin = false
-      Whatsapp = false
-      Pinterest = false
-      Tumblr = false
-      HackerNews = false
-      Reddit = false
-      VK = false
-      Buffer = false
-      Xing = false
-      Line = false
-      Instapaper = false
-      Pocket = false
-      Digg = false
-      Stumbleupon = false
-      Flipboard = false
-      Weibo = true
-      Renren = false
-      Myspace = false
-      Blogger = false
-      Baidu = false
       Odnoklassniki = false
       Evernote = false
       Skype = false
