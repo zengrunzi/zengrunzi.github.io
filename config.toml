@@ -439,12 +439,16 @@
         repo = ""
         clientId = ""
         clientSecret = ""
-      # Valine comment config (https://github.com/xCss/Valine)
+      # Valine comment config (https://github.com/xCss/Valine)##        评论系统评论系统评论系统评论系统评论系统评论系统
+
+
+      [outputs]
+        home = ["HTML", "RSS", "JSON"]
       [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
+        enable = true
+        appId = "hOQmEy01Z1sbQxojLn2RMgVh-gzGzoHsz"
+        appKey = "BZWRXR3IccmJI0gQLKvLOB9C"
+        placeholder = "说点什么..."
         avatar = "mp"
         meta = ""
         requiredFields = ""
