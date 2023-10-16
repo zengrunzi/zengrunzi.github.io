@@ -111,13 +111,13 @@
 
   # FixIt 0.2.0 | NEW Search config
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["lunr", "algolia", "fuse"]
     type = "lunr"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
-    placeholder = ""
+    placeholder = "搜索"
     # FixIt 0.2.1 | NEW max number of results length
     maxResultLength = 10
     # FixIt 0.2.3 | NEW snippet length of the result
