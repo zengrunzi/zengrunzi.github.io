@@ -761,7 +761,10 @@
       enable = false
       # "vConsole", "eruda" supported
       type = "vConsole"
- 
+
+      
+    [outputs]
+      home = ["HTML", "RSS", "JSON"]
   
 
 # -------------------------------------------------------------------------------------
