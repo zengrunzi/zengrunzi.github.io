@@ -737,9 +737,7 @@
       type = "vConsole"
 
       
-    [outputs]
-      home = ["HTML", "RSS", "JSON"]
-  
+
 
 # -------------------------------------------------------------------------------------
 # Modules Configuration
