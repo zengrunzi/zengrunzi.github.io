@@ -6,13 +6,15 @@ draft = false
 author = "zengrunzi"
 +++
 
-## about me {#about me}
+**about me**
 
 hello this is `zengrunzi`。  
 
 born and living in beijing ,china.  
 
-an auditor in a cpa firm.  
+currentl working as an auditor in a cpa firm.   
+
+a bitcoin hodler.
 
 
 
