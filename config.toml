@@ -113,9 +113,9 @@
   [params.search]
     enable = true
     # type of search engine ["lunr", "algolia", "fuse"]
-    type = "lunr"
+    type = "fuse"
     # max index length of the chunked content
-    contentLength = 4000
+    contentLength = 400
     # placeholder of the search bar
     placeholder = "搜索"
     # FixIt 0.2.1 | NEW max number of results length
@@ -132,14 +132,14 @@
       searchKey = ""
     [params.search.fuse]
       # FixIt 0.2.17 | NEW https://fusejs.io/api/options.html
-      isCaseSensitive = false
+      isCaseSensitive = true
       minMatchCharLength = 2
-      findAllMatches = false
+      findAllMatches = true
       location = 0
       threshold = 0.3
       distance = 100
-      ignoreLocation = false
-      useExtendedSearch = false
+      ignoreLocation = true
+      useExtendedSearch = true
       ignoreFieldNorm = false
 
   # Header config
