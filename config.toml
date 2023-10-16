@@ -274,92 +274,11 @@
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]
     GitHub = "zengrunzi@github.com"
-    Linkedin = ""
-    Twitter = ""
-    Instagram = ""
-    Facebook = ""
-    Telegram = ""
-    Medium = ""
-    Gitlab = ""
-    Youtubelegacy = ""
-    Youtubecustom = ""
-    Youtubechannel = ""
-    Tumblr = ""
-    Quora = ""
-    Keybase = ""
-    Pinterest = ""
-    Reddit = ""
-    Codepen = ""
-    FreeCodeCamp = ""
-    Bitbucket = ""
-    Stackoverflow = ""
-    Weibo = ""
-    Odnoklassniki = ""
-    VK = ""
-    Flickr = ""
-    Xing = ""
-    Snapchat = ""
-    Soundcloud = ""
-    Spotify = ""
-    Bandcamp = ""
-    Paypal = ""
-    Fivehundredpx = ""
-    Mix = ""
-    Goodreads = ""
-    Lastfm = ""
-    Foursquare = ""
-    Hackernews = ""
-    Kickstarter = ""
-    Patreon = ""
-    Steam = ""
-    Twitch = ""
-    Strava = ""
-    Skype = ""
-    Whatsapp = ""
-    Zhihu = ""
-    Douban = ""
-    Angellist = ""
-    Slidershare = ""
-    Jsfiddle = ""
-    Deviantart = ""
-    Behance = ""
-    Dribbble = ""
-    Wordpress = ""
-    Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
-    Mastodon = ""
-    Thingiverse = ""
-    Devto = ""
-    Gitea = ""
-    XMPP = ""
-    Matrix = ""
-    Bilibili = ""
-    ORCID = ""
-    Liberapay = ""
-    Ko-Fi = ""
     BuyMeaCoffee = ""
     Linktree = ""
     QQ = "954790830"
-    QQGroup = "" # https://qun.qq.com/join.html
-    Diaspora = ""
-    CSDN = ""
-    Discord = ""
-    DiscordInvite = ""
-    Lichess = ""
-    Pleroma = ""
-    Kaggle = ""
-    MediaWiki= ""
-    Plume = ""
-    HackTheBox = ""
-    RootMe = ""
-    Feishu = ""
-    TryHackMe = ""
-    Douyin = ""
-    TikTok = ""
-    Phone = ""
-    Email = ""
-    RSS = true
+
+
 
   # FixIt 0.2.0 | CHANGED Page config
   [params.page]
@@ -842,6 +761,21 @@
       enable = false
       # "vConsole", "eruda" supported
       type = "vConsole"
+ 
+  
+  #添加搜索功能
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
+menu:
+  main:
+  - identifier: search
+    name: Search
+    url: /search/
+    weight: 10
+
 
 # -------------------------------------------------------------------------------------
 # Modules Configuration
