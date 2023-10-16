@@ -771,10 +771,10 @@ outputs:
     - JSON 
 menu:
   main:
-  - identifier: search
-    name: Search
-    url: /search/
-    weight: 10
+  - identifier = search
+    name = Search
+    url = /search/
+    weight = 10
 
 
 # -------------------------------------------------------------------------------------
