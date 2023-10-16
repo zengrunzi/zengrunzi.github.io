@@ -41,16 +41,25 @@
     [menu.main.params]
       icon = "fa-solid fa-th"
   [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "标签"
+    url = "/tags/"
+    title = ""
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-tags"
+  [[menu.main]]
     identifier = "about"
     pre = ""
     post = ""
     name = "关于"
     url = "/about/"
     title = ""
-    weight = 3
+    weight = 4
     [menu.main.params]
-      icon = "fa-solid fa-tags"
-
+      icon = ""
 
 # -------------------------------------------------------------------------------------
 # Theme Core Configuration
@@ -154,9 +163,9 @@
     # FixIt 0.2.12 | NEW Header subtitle config
     [params.header.subtitle]
       # subtitle name
-      name = ""
+      name = "freedom is not free"
       # whether to use typeit animation for subtitle name
-      typeit = false
+      typeit = true
 
   # FixIt 0.2.18 | NEW Breadcrumb config
   [params.breadcrumb]
