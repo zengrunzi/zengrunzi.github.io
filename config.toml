@@ -765,17 +765,10 @@
   
   #添加搜索功能
 outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON 
+ home = ["HTML", "RSS", "JSON"]
+ 
 menu:
-  main:
-  - identifier = search
-    name = Search
-    url = /search/
-    weight = 10
-
+  main =  ["identifier = search", "name = Search", "url = /search/", "weight = 10"]
 
 # -------------------------------------------------------------------------------------
 # Modules Configuration
