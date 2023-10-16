@@ -763,12 +763,6 @@
       type = "vConsole"
  
   
-  #添加搜索功能
-outputs = home
- home = ["HTML", "RSS", "JSON"]
- 
-menu = main
-  main =  ["identifier = search", "name = Search", "url = /search/", "weight = 10"]
 
 # -------------------------------------------------------------------------------------
 # Modules Configuration
