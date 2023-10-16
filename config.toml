@@ -416,7 +416,7 @@
       position = "right"
     # FixIt 0.2.13 | NEW Display a message at the beginning of an article to warn the reader that its content might be expired
     [params.page.expirationReminder]
-      enable = false
+      enable = true
       # Display the reminder if the last modified time is more than 90 days ago
       reminder = 90
       # Display warning if the last modified time is more than 180 days ago
@@ -469,18 +469,18 @@
       fullscreen = true
     # FixIt 0.2.17 | NEW Donate (Sponsor) settings
     [params.page.reward]
-      enable = false
-      animation = false
+      enable = true
+      animation = true
       # position relative to post footer, optional values: ["before", "after"]
       position = "after"
       # comment = "Buy me a coffee"
       # FixIt 0.2.18 | NEW display mode of QR code images, optional values: ["static", "fixed"], default: `static`
       mode = "static"
       [params.page.reward.ways]
-        # wechatpay = "/images/wechatpay.png"
+       wechatpay = "/images/wechatpay.png"
         # alipay = "/images/alipay.png"
         # paypal = "/images/paypal.png"
-        # bitcoin = "/images/bitcoin.png"
+      bitcoin = "/images/bitcoin.png"
     # FixIt 0.2.0 | CHANGED social share links in post page
     [params.page.share]
       enable = true
