@@ -1,19 +1,19 @@
 ---
-title: First_post
-subtitle: first_test_subtitle
+title: "第一篇文章"
+subtitle: 
 date: 2023-10-15T20:17:18+08:00
 
-author: zengrunzi
+author: "zengrunzi"
 draft: false
-author:
-  name:
-  link:
-  email:
-  avatar:
-description: it is a test for posting post on the blog.
-keywords: test
+author: 
+  name: 
+  link: 
+  email: 
+  avatar: 
+description: "一"
+keywords: "test"
 license:
-comment: false
+comment: true
 weight: 0
 tags:
   - draft
@@ -38,5 +38,5 @@ repost:
 
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
-
+hi,welcome to my blog
 <!--more-->
