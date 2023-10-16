@@ -764,10 +764,10 @@
  
   
   #添加搜索功能
-outputs:
+outputs = home
  home = ["HTML", "RSS", "JSON"]
  
-menu:
+menu = main
   main =  ["identifier = search", "name = Search", "url = /search/", "weight = 10"]
 
 # -------------------------------------------------------------------------------------
