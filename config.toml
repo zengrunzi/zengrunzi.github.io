@@ -151,9 +151,9 @@
     # FixIt 0.2.0 | NEW Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "/zeng.png"
+      logo = ""
       # title name
-      name = "曾润梓的博客"
+      name = "曾润梓"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -170,7 +170,7 @@
   # FixIt 0.2.18 | NEW Breadcrumb config
   [params.breadcrumb]
     enable = false
-    sticky = false
+    sticky = true
     showHome = false
 
   # Footer config
@@ -205,9 +205,9 @@
     # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
       #powered = 0
-      copyright = 1
+      copyright = 2
       #statistics = 0
-      visitor = 0
+      visitor = 1
       #beian = 0
 
   # FixIt 0.2.0 | NEW Section (all posts) page config
@@ -559,7 +559,7 @@
       images = []
       # Publisher info
       [params.page.seo.publisher]
-        name = ""
+        name = "zengrunzi"
         logoUrl = ""
 
   # FixIt 0.2.5 | NEW TypeIt config
