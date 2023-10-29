@@ -1,0 +1,84 @@
+---
+title: "尝试比特币期权"
+subtitle: "welcome to my blog"
+date: 2023-10-15T20:17:18+08:00
+
+author: "zengrunzi"
+draft: false
+author: 
+  name: "zengrunzi"
+  link: 
+  email: "954790830@qq.com"
+  avatar: "/zeng.png"
+description: "first post"
+keywords: "test"
+license: 
+comment: true
+weight: 10
+tags:
+  - "杂文"
+categories:
+  - "杂文"
+hiddenFromHomePage: false
+hiddenFromSearch: false
+summary:
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
+toc: true
+math: false
+lightgallery: false
+password:
+message:
+repost: 
+  enable: 
+  url:
+
+# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+---
+
+
+  
+尝试比特币期权
+
+
+<!--more-->  
+
+
+
+<br>
+
+made 300 usd from my long call options  
+  
+
+during when bitcoin price hit 26,000 usd, i made a long call options, the price is like 2,000 usd for a whole  
+  
+considering im only a new fish in this game, so i put about 200 bucks into it.  
+  
+the very option gives me a privledge to buy bitcoin at price 35,000 usd in 6/28 2024.  
+  
+it was a simple strategy: the havling time is coming in 2024 , and i think it will pop up the price
+
+last week news see SEC is doing sth with the ETF things, so the bitcoin price hit 35,000 or sth,  
+  
+my long call position returns about 300%, i liquatated it in 5550 usd , earning is like about 200 bucks.  
+  
+在这段时间我认识到了之前没有意识到的几件事情：
+  
+理论价值(in that situation is the black-scholes model)常常与市场价值不等。
+  
+需要考虑到市场容量、流动性、承接水平，去考虑你的初始投资额。
+
+stay away from  A SHARE
+
+gary gensler used to be a partner in goldsachs whlie during the time i wrote this, he is the chairman of SEC,  
+  
+been listen his classes in MIT on bilibili, quite a guy.
+
+2023-10-30
+  
+
+
+
