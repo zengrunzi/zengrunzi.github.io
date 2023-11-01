@@ -1,6 +1,6 @@
 ---
 title: "尝试比特币期权"
-date: 2023-11-1 10:30:02
+date: 2023-03-03T14:08:56+08:00
 
 author: "zengrunzi"
 draft: false
@@ -43,7 +43,7 @@ repost:
 
 <br>
 
-###made 300 usd from my long call options  
+### made 300 usd from my long call options  
   
 
 during when bitcoin price hit 26,000 usd, i made a long call options, the price is like 2,000 usd for a whole  
@@ -58,7 +58,7 @@ last week news see SEC is doing sth with the ETF things, so the bitcoin price hi
   
 my long call position returns about 300%, i liquatated it in 5550 usd , earning is like about 200 bucks.  
   
-###在这段时间我认识到了之前没有意识到的几件事情：
+### 在这段时间认识到了之前没有意识到的几件事情：
   
 理论价值(in that situation is the black-scholes model)常常与市场价值不等。
   
