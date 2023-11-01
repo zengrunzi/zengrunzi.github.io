@@ -1,22 +1,15 @@
 ---
 title: "尝试比特币期权"
-subtitle: "welcome to my blog"
-date: 2023-10-15T20:17:18+08:00
+date: 2023-11-1 10:30:02
 
 author: "zengrunzi"
 draft: false
-author: 
-  name: "zengrunzi"
-  link: 
-  email: "954790830@qq.com"
-  avatar: "/zeng.png"
-description: "first post"
-keywords: "test"
+keywords: "期权"
 license: 
 comment: true
 weight: 10
 tags:
-  - "杂文"
+  - "比特币"
 categories:
   - "杂文"
 hiddenFromHomePage: false
@@ -50,7 +43,7 @@ repost:
 
 <br>
 
-made 300 usd from my long call options  
+###made 300 usd from my long call options  
   
 
 during when bitcoin price hit 26,000 usd, i made a long call options, the price is like 2,000 usd for a whole  
@@ -65,7 +58,7 @@ last week news see SEC is doing sth with the ETF things, so the bitcoin price hi
   
 my long call position returns about 300%, i liquatated it in 5550 usd , earning is like about 200 bucks.  
   
-在这段时间我认识到了之前没有意识到的几件事情：
+###在这段时间我认识到了之前没有意识到的几件事情：
   
 理论价值(in that situation is the black-scholes model)常常与市场价值不等。
   
